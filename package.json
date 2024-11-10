@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dbg": "npx nx serve employee"
+    "start": "npx nx serve employee",
+    "start:login": "nx serve dashboard --devRemotes=login",
+    "start:todo": "nx serve dashboard --devRemotes=todo"
   },
   "private": true,
   "dependencies": {
